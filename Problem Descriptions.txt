@@ -1,3 +1,7 @@
-We define a subarray of size x in an n-element array to be the contiguous block of elements in the inclusive range from index i to index j, where j-i+1 = x and 0 <= i <= j < n. For example, given array[8,2,4], the subarray of size x = 2 would be [8,2] and [2,4].
+We define a subarray of size x in an n-element array to be the contiguous block of elements 
+in the inclusive range from index i to index j, where j-i+1 = x and 0 <= i <= j < n. 
+For example, given array[8,2,4], the subarray of size x = 2 would be [8,2] and [2,4].
 
-Your function must find the minimum value for each of size x in array arr. After finding the minimum value for each x-element subarray of arr, it must return an integer denoting the maximum of these minimums.
+Your function must find the minimum value for each of size x in array arr. 
+After finding the minimum value for each x-element subarray of arr, 
+it must return an integer denoting the maximum of these minimums.
